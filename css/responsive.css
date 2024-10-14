@@ -1,0 +1,39 @@
+@media screen and (min-width:768px) {
+
+    h1 {
+        text-align: left;
+    }
+
+    .container-main {
+        width: 90%;
+    }
+
+    .none {
+        display: inline;
+    }
+
+    .col-3 {
+        
+        align-self: flex-start;
+        width: calc(100%/3);
+    }
+
+    @media screen and (min-width:992px) {
+
+        .container-main {
+            width: 80%;
+        }
+
+        .video-col {
+            width: 70%;
+        }
+
+        .recipe-col {
+            width: 30%;
+        }
+
+        .col-3{
+            width: 100%;
+        }
+    }
+}
