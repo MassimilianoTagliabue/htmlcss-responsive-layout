@@ -24,6 +24,19 @@
 
     }
 
+    /* banner */
+    .banner{
+        display: inline-block;
+        padding: 40px 0 20px;
+    }
+
+    /* description */
+    .description img{
+        margin: 0;
+        float: left;
+        margin-right: 8px;
+    }
+
 }
 
     @media screen and (min-width:992px) {
