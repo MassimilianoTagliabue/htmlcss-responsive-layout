@@ -1,9 +1,10 @@
 @media screen and (min-width:768px) {
-
+    /* header */
     h1 {
         text-align: left;
     }
 
+    /* main */
     .container-main {
         width: 90%;
     }
@@ -17,9 +18,19 @@
         align-self: flex-start;
         width: calc(100%/3);
     }
+    /* social */
+    .social div{
+        width: 140px;
+
+    }
+
+}
 
     @media screen and (min-width:992px) {
 
+        /* header */
+
+        /* main */
         .container-main {
             width: 80%;
         }
@@ -35,5 +46,13 @@
         .col-3{
             width: 100%;
         }
+        /* socal */
+        .social div{
+            width: 170px;
+    
+        }
+
+        .social span{
+            display: inline-block;
+        }
     }
-}

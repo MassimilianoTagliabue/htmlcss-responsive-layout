@@ -18,6 +18,11 @@ body{
     --h1-color:#ff9614;
     --bg-body:#f6f5f3;
     --purple-title:#4e3969;
+    --facebook:#1a77f3;
+    --twitter:#009eff;
+    --instagram:#de5284;
+    --pinterest:#e83122;
+    --youtube:#e62222;
 }
 
 /* *****************/
@@ -75,6 +80,7 @@ h4{
     color: var(--purple-title);
     font-weight: 800;
     font-size: 1.7rem;
+    padding-bottom: 20px;
 }
 
 .none{
@@ -84,12 +90,12 @@ h4{
 .container-recipe{
     width: 100%;
 
-    border: 2px solid red;
+    box-shadow: 2px 2px 2rem lightgray;
 }
 iframe{
     width: 100%;
     height: 280px;
-    padding-top:20px ;
+   
 }
 .recipe-title{
     font-size: 1.5rem;
@@ -117,6 +123,50 @@ iframe{
     width: 100%;
     
 }
+
+/* social */
+
+.social{
+    padding-top: 50px;
+}
+.social div{
+    display: inline-block;
+    background-color: white;
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 2rem lightgray;
+    
+    
+}
+
+.social span{
+    display: none;
+}
+
+.facebook{
+    color: var(--facebook);
+}
+
+.twitter{
+    color:var(--twitter) ;
+}
+
+.instagram{
+    color:var(--instagram) ;
+}
+
+.pinterest{
+    color: var(--pinterest);
+}
+
+.youtube{
+    color: var(--youtube);
+}
+
 /* *****************/
 /* footer */
 /* *****************/
